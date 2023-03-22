@@ -1,0 +1,22 @@
+VERSION = 1,
+
+option SlowerDirt.Mode
+{ type = enum, default = 3, numValues = 3, page = SlowerDirt, translation = SlowerDirtMode, valueTranslation = SlowerDirtMode, }
+
+option SlowerDirt.BodyDirtIncreaseMultiplier
+{ type = double, default = 0.1, min = 0.0, max = 100.0, page = SlowerDirt, translation = SlowerDirtBodyIncreaseMultiplier, }
+
+option SlowerDirt.ClothingDirtIncreaseMultiplier
+{ type = double, default = 0.1, min = 0.0, max = 100.0, page = SlowerDirt, translation = SlowerDirtClothingIncreaseMultiplier, }
+
+option SlowerDirt.BodyMultiplierApplyMinimum 
+{ type = double, default = 0.0, min = 0.0, max = 1.0, page = SlowerDirt, translation = SlowerDirtBodyMultiplierApplyMinimum, }
+
+option SlowerDirt.BodyMultiplierApplyMaximum 
+{ type = double, default = 1.0, min = 0.0, max = 1.0, page = SlowerDirt, translation = SlowerDirtBodyMultiplierApplyMaximum, }
+
+option SlowerDirt.ClothingMultiplierApplyMinimum 
+{ type = double, default = 0.0, min = 0.0, max = 1.0, page = SlowerDirt, translation = SlowerDirtClothingMultiplierApplyMinimum, }
+
+option SlowerDirt.ClothingMultiplierApplyMaximum 
+{ type = double, default = 1.0, min = 0.0, max = 1.0, page = SlowerDirt, translation = SlowerDirtClothingMultiplierApplyMaximum, }

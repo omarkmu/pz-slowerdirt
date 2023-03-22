@@ -1,0 +1,27 @@
+Sandbox_EN = {
+    Sandbox_SlowerDirt = "Slower Dirt Accrual",
+
+    Sandbox_SlowerDirtMode = "Accrual Correction Mode",
+    Sandbox_SlowerDirtMode_tooltip = "The types of accrual correction that will occur.",
+    Sandbox_SlowerDirtMode_option1 = "Body Only",
+    Sandbox_SlowerDirtMode_option2 = "Clothing Only",
+    Sandbox_SlowerDirtMode_option3 = "Body & Clothing",
+
+    Sandbox_SlowerDirtBodyIncreaseMultiplier = "Body Dirt Increase Multiplier",
+    Sandbox_SlowerDirtBodyIncreaseMultiplier_tooltip = "The multiplier that will be used for correction of body dirt accrual.",
+
+    Sandbox_SlowerDirtBodyMultiplierApplyMinimum = "Body Dirt Multiplier Application Minimum",
+    Sandbox_SlowerDirtBodyMultiplierApplyMinimum_tooltip = "The minimum amount of increase required to apply the body dirt multiplier.",
+
+    Sandbox_SlowerDirtBodyMultiplierApplyMaximum = "Body Dirt Multiplier Application Maximum",
+    Sandbox_SlowerDirtBodyMultiplierApplyMaximum_tooltip = "The maximum amount of increase allowed to apply the body dirt multiplier.",
+
+    Sandbox_SlowerDirtClothingIncreaseMultiplier = "Clothing Dirt Increase Multiplier",
+    Sandbox_SlowerDirtClothingIncreaseMultiplier_tooltip = "The multiplier that will be used for correction of clothing dirt accrual.",
+
+    Sandbox_SlowerDirtClothingMultiplierApplyMinimum = "Clothing Dirt Multiplier Application Minimum",
+    Sandbox_SlowerDirtClothingMultiplierApplyMinimum_tooltip = "The minimum amount of increase required to apply the clothing dirt multiplier.",
+
+    Sandbox_SlowerDirtClothingMultiplierApplyMaximum = "Clothing Dirt Multiplier Application Maximum",
+    Sandbox_SlowerDirtClothingMultiplierApplyMaximum_tooltip = "The maximum amount of increase allowed to apply the clothing dirt multiplier.",
+}
